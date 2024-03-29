@@ -1,0 +1,48 @@
+{
+  "name": "retrocoders",
+  "displayName": "Retrocoders Dark Theme",
+  "description": "🪄 A dark theme for old-school coders",
+  "version": "1.0.1",
+  "publisher": "adanyc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adanyc/vscode-retrocoders-theme"
+  },
+  "icon": "images/icon/logo.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Retrocoders",
+    "Dark Theme",
+    "VSCode Power User",
+    "Retro",
+    "Coders"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Retrocoders",
+        "uiTheme": "vs-dark",
+        "path": "./themes/retrocoders-color-theme.json"
+      }
+    ]
+  },
+  "files": [
+    "images/icon/logo.png",
+    "themes",
+    "themes/*",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "pack": "vsce package",
+    "publish": "vsce publish"
+  }
+}
