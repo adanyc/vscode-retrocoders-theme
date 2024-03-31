@@ -2,7 +2,7 @@
   "name": "retrocoders",
   "displayName": "Retrocoders Dark Theme",
   "description": "🪄 A dark theme for old-school coders",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "adanyc",
   "repository": {
     "type": "git",
@@ -42,7 +42,11 @@
     "README.md"
   ],
   "scripts": {
+    "start": "nodemon --exec vsce package",
     "pack": "vsce package",
     "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
