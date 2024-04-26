@@ -233,7 +233,7 @@
       "scope": "comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#63707f"
+        "foreground": "#838e98" // was #63707f
       }
     },
     {
