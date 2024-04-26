@@ -9,11 +9,14 @@ A beautiful theme designed for old-school coders.
 
 ![demo-screen-2](images/demo-screen-2.png)
 
+![demo-screen-3](images/demo-screen-3.png)
+
 ## Best Custom Settings
 
 ### Install the font
 
-https://fonts.google.com/specimen/Fira+Code
+- https://www.jetbrains.com/es-es/lp/mono (recommended)
+- https://fonts.google.com/specimen/Fira+Code
 
 ### Install the icon theme
 
@@ -28,19 +31,18 @@ Visual Studio Code allows you to edit the `settings.json` config file. First ope
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.enableStickyScroll": false,
-  "workbench.colorTheme": "Retrocoders",
   "files.eol": "\n",
   "[python]": {
     "editor.formatOnType": true
   },
   "terminal.integrated.fontSize": 13,
   "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "breadcrumbs.enabled": false,
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
   "editor.stickyScroll.enabled": false,
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, Courier New, monospace",
+  "editor.fontFamily": "JetBrains Mono, Mononoki, Fira Code, Menlo, Monaco, Courier New, monospace",
   "editor.fontLigatures": false,
   "editor.fontSize": 13,
   "editor.fontWeight": "normal",
@@ -49,6 +51,7 @@ Visual Studio Code allows you to edit the `settings.json` config file. First ope
   "editor.renderWhitespace": "all",
   "editor.tabSize": 2,
   "explorer.compactFolders": false,
+  "workbench.colorTheme": "Retrocoders"
 }
 ```
 
