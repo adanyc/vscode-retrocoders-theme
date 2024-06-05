@@ -723,7 +723,7 @@
     // end ICON
 
     // begin INPUT
-    "input.background": "#303f51",
+    "input.background": "#36465a", // was #303f51
     "input.border": "#00000000",
     "input.foreground": "#f7f5e9",
     "inputOption.activeBackground": "#263240",
