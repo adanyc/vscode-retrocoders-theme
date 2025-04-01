@@ -32,9 +32,6 @@ Visual Studio Code allows you to edit the `settings.json` config file. First ope
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.enableStickyScroll": false,
   "files.eol": "\n",
-  "[python]": {
-    "editor.formatOnType": true
-  },
   "terminal.integrated.fontSize": 13,
   "security.workspace.trust.untrustedFiles": "open",
   "window.zoomLevel": 2,
