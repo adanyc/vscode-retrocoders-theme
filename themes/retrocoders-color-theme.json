@@ -786,7 +786,7 @@
     // end QUICK INPUT
 
     // begin SELECTION
-    // "selection.background": "#ff695d",
+    "selection.background": "#3e6c9a", // was #ff695d
     // end SELECTION
 
     // begin SETTINGS
